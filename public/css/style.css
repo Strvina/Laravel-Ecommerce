@@ -1,0 +1,52 @@
+/* Carousel caption */
+.carousel-caption {
+    bottom: 20px;
+}
+
+.carousel-caption h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%, 100%;
+}
+
+/* Dog card */
+.dog-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.dog-card {
+    transition: transform 0.2s;
+}
+
+.dog-card:hover {
+    transform: scale(1.03);
+}
+
+.dog-card .card-body hr {
+    margin: 0.5rem 0;
+    border-color: #ddd;
+}
+
+.dog-card .card-body p {
+    margin-bottom: 0.5rem;
+}
+.badge {
+    font-size: 0.8rem;
+    padding: 0.4em 0.6em;
+}
+.toast-body a {
+    text-decoration: underline;
+    color: #fff;
+}
